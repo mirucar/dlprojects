@@ -70,7 +70,3 @@ res_mse, res_mae = adm_model.evaluate(features_test_scaled, labels_test_set, ver
 print(res_mse)
 print(res_mae)
 
-# Do extensions code below
-# if you decide to do the Matplotlib extension, you must save your plot in the directory by uncommenting the line of code below
-
-# fig.savefig('static/images/my_plots.png')
